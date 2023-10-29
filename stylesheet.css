@@ -1,0 +1,155 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 400px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+
+}
+
+#imgtourl{
+    font-size:x-large;
+    margin: 0 400px 0 0;
+}
+
+form {
+    padding: 0 20px 0 0;
+}
+
+h2 {
+    color: #333;
+}
+
+label, input {
+    display: block;
+    margin: 10px 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button{
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+@media (max-width: 600px) {
+    .container{
+        width: 80%;
+    }
+}
+
+/* Anasayfa Css Kodları Başlangıç */
+
+header {
+    background: #007BFF;
+    color: #fff;
+    padding: 20px;
+    text-align: right;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+.navbar a {
+    color: #f4f4f4;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.hero {
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.hero a {
+    display: inline-block;
+    background: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+footer {
+    background: #007BFF;
+    color: #fff;
+    padding: 45px;
+    text-align: center;
+    position: relative;
+    top:300px;
+}
+
+
+
+#dropArea {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 150px;
+}
+
+#fileInput {
+    display: none;
+}
+
+#fileLabel {
+    display: block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+}
+/* Anasayfa Css Kodları Bitiş */
